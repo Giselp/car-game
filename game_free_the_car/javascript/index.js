@@ -23,10 +23,10 @@ const levelNum = document.getElementById("level");
 function nextLevel() {
    if (currentLevel < levels.length - 1) {
      currentLevel++;
-      popupNextLevel.style.display = "none";
-      infoContainer.style.display = "block";
-      exitBtn.style.display = "block";
-      canvas.elt.style.display = "block";
+      popupNextLevel.style.display = "none"
+      infoContainer.style.display = "block"
+      exitBtn.style.display = "block"
+      canvas.elt.style.display = "block"
       
 
      console.log("estoy en el nivel 2")
