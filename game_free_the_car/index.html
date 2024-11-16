@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free The Car Game</title>
+  <link rel= "stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="screen-hide">
+    <div class="title-container">
+      <h1 id="title-hp">Free the Car!</h1>
+      <h2 id="exit-btn">EXIT</h2>
+    </div>
+
+    <div class="main-container">
+      <div id="canvas-container"></div>
+      <div class="info-container" id="info-container">
+        <h3 id="level">LEVEL 1</h3>
+        <p><strong>SCORE:</strong></p>
+        <p><strong>MOVEMENTS:</strong></p>
+        <button id="start-btn">START AGAIN</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-nextlevel">
+    <h4>"CONGRATULATIONS!"</h4>
+    <p>Go to the next level!</p>
+    <button id="continue">Continue</button>
+  </div>
+  <div class="popup" id="popup-winner">
+    <h4>"WE HAVE A NEW CHAMPION!"</h4>
+  </div>
+  <div class="popup" id="popup-gameover">
+    <h4>"GAME OVER!"</h4>
+    <p>Try again</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="./javascript/sketch.js"></script>
+  <script src="./javascript/index.js"></script>
+</body>
+</html>
