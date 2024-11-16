@@ -29,7 +29,7 @@ function nextLevel() {
       canvas.elt.style.display = "block"
       
 
-     console.log("estoy en el nivel 2")
+     console.log("nivel 2")
    } else {
      console.log("nivel 3")
    }
